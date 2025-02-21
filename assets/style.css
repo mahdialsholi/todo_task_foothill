@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+.todo-container {
+  width: 100%;
+
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  font-size: 18px;
+  padding: 16px;
+  border-radius: 5px;
+  border: 1px solid rgb(150, 150, 150);
+  margin: 10px;
+}
+.search input {
+  width: 400px;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0 10px; /* Adjust row spacing */
+}
+
+tfoot {
+  text-align: center;
+}
+thead,
+tfoot {
+  background-color: rgb(150, 150, 150, 0.2);
+  color: black;
+  padding: 10px;
+  height: 50px;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid rgb(150, 150, 150);
+}
+
+.delete-btn,
+.success-btn {
+  font-size: 24px;
+  color: rgb(255, 255, 255, 0.8);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.delete-btn:hover,
+.success-btn:hover {
+  opacity: 0.8;
+}
+
+.success-btn {
+  background-color: red;
+}
+
+.delete-btn {
+  background-color: green;
+}

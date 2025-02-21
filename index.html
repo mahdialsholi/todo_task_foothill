@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="todo-container">
+      <h1>TODO List</h1>
+      <form action="" id="todo-form" onsubmit="submitForm(event)">
+        <input
+          type="text"
+          name="todo"
+          id="todo-btn"
+          placeholder="Add new task...."
+        />
+        <button id="add-btn" class="success-btn" type="submit">Add</button>
+      </form>
+      <div class="search">
+        <input
+          type="text"
+          name="search"
+          id="search"
+          placeholder="search .... "
+        />
+      </div>
+    </div>
+    <table></table>
+
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
