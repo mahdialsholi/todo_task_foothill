@@ -88,3 +88,11 @@ td {
 .delete-btn {
   background-color: green;
 }
+
+.pending {
+  text-decoration: none;
+  
+}
+.completed {
+  text-decoration: line-through;
+}

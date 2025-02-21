@@ -117,7 +117,7 @@ function renderTable(todos) {
             <td>${_idx + 1}</td>
             <td>${todo.todo}</td>
             <td>${todo.userId}</td>
-            <td  onclick="taskCompleted(event , ${_idx})"   >${
+            <td   class=${todo.completed ? "completed" : "pending"}  onclick="taskCompleted(event , ${_idx})" >${
               todo.completed ? "Completed" : "Pending"
             }</td>
             <td>
